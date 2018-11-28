@@ -2,11 +2,18 @@
   {
     "type":"monstergroup",
     "name": "GROUP_DOMESTIC",
-    "_comment": "DogMod+PK",
+    "_comment": "Dinomod+Bandits+PK+DogMod",
     "override": true,
     "auto_total": true,
     "default": "mon_dog",
     "monsters": [
+      { "monster" : "mon_compsognathus", "freq" : 20, "cost_multiplier" : 5, "pack_size" : [4,12] },
+      { "monster" : "mon_gallimimus", "freq" : 20, "cost_multiplier" : 5, "pack_size" : [4,8] },
+      { "monster" : "mon_titanis", "freq" : 10, "cost_multiplier" : 10 },
+      { "monster" : "mon_eoraptor", "freq" : 20, "cost_multiplier" : 5, "pack_size" : [4,12]  },
+      
+      { "monster" : "mon_bandit_looter", "freq" : 10, "cost_multiplier" : 8, "pack_size" : [1,2]  },
+      
       { "monster": "mon_horse_zombie", "freq":  10, "cost_multiplier": 20, "starts":   75, "pack_size": [1,2] },
       { "monster": "mon_horse_zombie", "freq":  5, "cost_multiplier": 20, "starts":  600, "pack_size": [1,2] },
       { "monster": "mon_horse_zombie", "freq":  10, "cost_multiplier": 20, "starts":  1300, "pack_size": [1,2] },
